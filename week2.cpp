@@ -55,14 +55,14 @@ namespace CST8219 {              // Step 3
 int main(int argc, char const *argv[])
 {
     // Step 11 (Demo #3):
-    CST8219::NumberRange five(1, 6);
+    //CST8219::NumberRange five(1, 6);
 
     // To switch demos, comment out the line above and uncomment one of these:
     // Step 9 (Demo #2):
     // CST8219::NumberRange rangeTen(10);
 
     // Step 7 (Demo #1):
-    // CST8219::NumberRange firstRange;
+     CST8219::NumberRange firstRange;
 
     cout << "I made a NumberRange" << endl;  // Step 7 continuation
     return 0;
