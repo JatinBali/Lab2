@@ -55,7 +55,7 @@ namespace CST8219 {              // Step 3
 int main(int argc, char const *argv[])
 {
     // Step 11 (Demo #3):
-    //CST8219::NumberRange five(1, 6);
+    CST8219::NumberRange five(1, 6);
 
     // To switch demos, comment out the line above and uncomment one of these:
     // Step 9 (Demo #2):
