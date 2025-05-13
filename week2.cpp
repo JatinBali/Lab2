@@ -59,7 +59,7 @@ int main(int argc, char const *argv[])
 
     // To switch demos, comment out the line above and uncomment one of these:
     // Step 9 (Demo #2):
-    // CST8219::NumberRange rangeTen(10);
+     CST8219::NumberRange rangeTen(10);
 
     // Step 7 (Demo #1):
      CST8219::NumberRange firstRange;
