@@ -20,7 +20,7 @@ namespace CST8219 {              // Step 3
         // Step 4a: 2-parameter constructor
         NumberRange(int _min, int _max);
 
-        // Step 4b: 1-parameter constructor
+        // Step 4b: 1-pagrameter constructor
         NumberRange(int _max);
 
         // Step 4c: 0-parameter constructor
