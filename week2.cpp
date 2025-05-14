@@ -1,5 +1,12 @@
-// week2.cpp
-
+/**
+ * CET - CS Academic Level 4
+ * Description:
+ * Student Name: Jatin Bali
+ * Student Number: 041074709
+ * Lab Sec: 302
+ * Course: CST8219 C++ Programming
+ * Lab Professor: Eric Torunski
+ */
 #include <iostream>
 using namespace std;            // Step 2
 
@@ -57,7 +64,6 @@ int main(int argc, char const *argv[])
     // Step 11 (Demo #3):
     CST8219::NumberRange five(1, 6);
 
-    // To switch demos, comment out the line above and uncomment one of these:
     // Step 9 (Demo #2):
      CST8219::NumberRange rangeTen(10);
 
