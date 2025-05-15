@@ -46,5 +46,6 @@ namespace CST8219 {
 }
 int main() {
     cout << "Week 2 Lab Start" << endl;
+    CST8219::NumberRange firstRange; // Calls NumberRange()
     return 0;
 }
