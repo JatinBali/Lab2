@@ -44,7 +44,7 @@ namespace CST8219 {
 
 int main() {
     cout << "Week 2 Lab Start" << endl;
-    CST8219::NumberRange rangeTen(10);  // Calls 1-parameter constructor
+    CST8219::NumberRange five(1, 6);  // Calls 2-parameter constructor
     return 0;
 }
 
