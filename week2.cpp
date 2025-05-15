@@ -1,5 +1,5 @@
 /**
- * CET - CS Academic Level 4
+* CET - CS Academic Level 4
  * Description:
  * Student Name: Jatin Bali
  * Student Number: 041074709
@@ -8,7 +8,7 @@
  * Lab Professor: Eric Torunski
  */
 #include <iostream>
-using namespace std;               // allows use of cout, endl without std:: :contentReference[oaicite:0]{index=0}
+using namespace std;
 
 namespace CST8219 {
     class NumberRange {
@@ -16,11 +16,8 @@ namespace CST8219 {
         int min, max;
     public:
         NumberRange(int _min, int _max);
-
         NumberRange(int _max);
-
         NumberRange();
-
         ~NumberRange();
     };
 
@@ -34,9 +31,9 @@ namespace CST8219 {
         cout << "In constructor with 1 parameters, max = " << max << endl;
     }
 
-    // 0-paramter constructor
+    // 0-parameter constructor
     NumberRange::NumberRange() : NumberRange(1) {
-       cout << "In constructor with 0 parameters" << endl;
+        cout << "In constructor with 0 parameters" << endl;
     }
 
     // Destructor
@@ -44,8 +41,9 @@ namespace CST8219 {
         cout << "In destructor" << endl;
     }
 }
+
 int main() {
     cout << "Week 2 Lab Start" << endl;
-    CST8219::NumberRange firstRange; // Calls NumberRange()
+    CST8219::NumberRange firstRange;
     return 0;
 }
