@@ -13,6 +13,6 @@ using namespace std;
 
 int main() {
     cout << "Week 2 Lab Start" << endl;
-    CST8219::NumberRange firstRange;
+    CST8219::NumberRange rangeTen(10); // Calls 1-parameter constructor
     return 0;
 }
